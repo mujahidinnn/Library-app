@@ -72,10 +72,15 @@ html {
   align-items: center;
   justify-content: center;
   border-radius: 7px;
+  background: rgb(238, 233, 227);
+  padding:2px 5px ;
+}
+.search-icons{
+  color: var(--primary-color);
 }
 .search input {
   outline: 0;
-  border: 0;
+  border: none;
   width: 350px;
   height: 35px;
   padding: 0 0.5rem;
@@ -84,10 +89,10 @@ html {
   color: #755139ff;
   background: rgb(238, 233, 227);
   border-radius: 7px;
-  background-image: url(../../public/images/searchmagnifierinterfacesymbol1_79893.svg);
-  background-size: 22px;
-  background-repeat: no-repeat;
-  background-position: 94%;
+  /* background-image: url(../../public/images/searchmagnifierinterfacesymbol1_79893.svg); */
+  /* background-size: 22px; */
+  /* background-repeat: no-repeat; */
+  /* background-position: 94%; */
 }
 
 .wrap-container {

@@ -2,6 +2,7 @@ import { useState } from "react";
 import Card from "./Card";
 import axios from "axios";
 import "./style.css";
+import { MdSearch } from "react-icons/md";
 const Main = () => {
   const [search, setSearch] = useState("");
   const [bookData, setData] = useState([]);
@@ -31,6 +32,7 @@ const Main = () => {
         <div className="row2">
           <h2>Find Your Book</h2>
           <div className="search">
+            <MdSearch className="search-icons" size="2.3em" />
             <input
               id="keywords"
               type="search"
@@ -38,6 +40,7 @@ const Main = () => {
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               onKeyPress={searchBook}
+              spellCheck="false"
             />
           </div>
           <div className="image">
