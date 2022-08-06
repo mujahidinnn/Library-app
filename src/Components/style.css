@@ -73,9 +73,11 @@ html {
   justify-content: center;
   border-radius: 7px;
   background: rgb(238, 233, 227);
-  padding:2px 5px ;
+  padding: 2px 5px;
+  width: 90%;
+  margin: 0 auto;
 }
-.search-icons{
+.search-icons {
   color: var(--primary-color);
 }
 .search input {
