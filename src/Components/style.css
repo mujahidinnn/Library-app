@@ -135,7 +135,7 @@ html {
 }
 .card .bottom .title {
   font-size: 14px;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 .card .bottom .amount {
   position: absolute;

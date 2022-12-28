@@ -25,8 +25,8 @@ const Card = ({ book }) => {
               >
                 <img src={thumbnail} alt="" />
                 <div className="bottom">
-                  <h3 className="title">{item.volumeInfo.title}</h3>
-                  <p className="amount">&#8377; {amount}</p>
+                  <h3 className="title" style={{fontWeight:"600",fontSize:"16px"}}>{item.volumeInfo.title}</h3>
+                  {/* <p className="amount">&#8377; {amount}</p> */}
                 </div>
               </div>
               <Modal
